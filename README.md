@@ -1,4 +1,10 @@
 # grub-2.04
+Credit/license/source:
+
+Originally obtained from grub-2.04.tar.gz at https://git.savannah.gnu.org/cgit/grub.git 
+
+All licenses and credits are theirs. I merely am hosting this to add a few minor updates necessary for Linux stub boot on Surface ARM32.
+
 Build instructions:
 
 0. git clone https://www.github.com/coherixmatts/grub-2.04
