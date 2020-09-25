@@ -73,7 +73,7 @@ check_protocol (void)
   if (!handles || num_handles == 0)
     return 0;
 
-  for (i = 0; i < num_handles; i++)
+  for (i = 1; i < num_handles; i++)
     {
       gop_handle = handles[i];
       gop = grub_efi_open_protocol (gop_handle, &graphics_output_guid,
